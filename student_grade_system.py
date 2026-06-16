@@ -1,4 +1,8 @@
 # Student Grade System
+# 
+
+
+# Student Grade System
 
 student_name = input("Enter student name: ")
 
@@ -22,3 +26,6 @@ else:
 print("\nStudent Name:", student_name)
 print("Marks:", marks)
 print("Grade:", grade)
+
+if marks > 95:
+    print("Very Good")
